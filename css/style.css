@@ -1,0 +1,363 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: 0%;
+}
+
+@font-face {
+    font-family: heavitas;
+    src: url(../assets/fuentes/Heavitas.ttf);
+}
+@font-face {
+    font-family: couture;
+    src: url(../assets/fuentes/couture-bld.otf);
+}
+
+@font-face {
+    font-family: eunomia;
+    src: url(../assets/fuentes/Eunomia-Light.otf);
+}
+
+
+
+
+
+/*INDEX*/
+body{
+    background-image: url(../assets/1inicio.jpg); 
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 55px;
+    width: 100%;
+}
+
+.section{
+    color: white;
+    display: flex;
+}
+.section-uno img{
+    width: 40px;
+    padding: 5px;
+}
+
+.section-dos img{
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.barra-nav a{
+    color: white;
+    font-family: couture;
+    text-decoration: none;
+    margin-left: 85px;
+    
+}
+.barra-nav-division{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 125vh;
+}
+
+
+
+
+
+
+
+
+/*cuerpo index*/
+.section-tres{
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 60vh;
+    width: 70vh;
+    border-radius: 25px;
+    margin: 120px 50px 60px 50px;
+}
+.section-tres h1{
+    color: white;
+    font-size: 50px;
+    font-family: heavitas;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.section-tres h2{
+    font-family: couture;
+    color: white;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-tres div a{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 11.5%;
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+    font-family: couture;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top: 85px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+/*pie de pagina*/
+
+footer{
+    background-color: hsla(0, 0%, 0%, 0.85);
+    height: 55px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    
+
+}
+.section-2{
+    display: flex;
+    align-items: flex-end;
+    
+}
+.section-cuatro img{
+    width: 40px;
+    padding: 5px;
+    display: flex;
+}
+
+.section-cinco img{
+    width: 100px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.section-3{
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.section-seis img{
+    width: 40px;
+    padding: 5px;
+    margin-left: 125vh
+}
+
+.section-siete img{
+    width: 40px;
+    padding: 5px;
+}
+
+.section-ocho img{
+    width: 40px;
+    padding: 5px;
+}
+
+.section-nueve h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+}
+
+.section-nueve-2 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+}
+
+.section-nueve-3 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* INICIOSESION */
+
+.section-diez h1{
+    font-family: heavitas;
+    color: white;
+    padding-left: 5px;
+    margin-top: 35px;
+}
+
+.section-diez h2{
+    font-family: couture;
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.section-once{
+    font-family: eunomia;
+    color: white;
+    padding-left: 5px;
+    margin-right: 33px;
+}
+
+.section-doce{
+    font-family: eunomia;
+    color: white;
+    padding-left: 5px;
+    margin-right: 5px; 
+}
+
+.section-trece a{
+    font-family: couture;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* MENU PERFIL */
+
+.section-catorce h1{
+    font-family: heavitas;
+    color: white;
+    margin-top: 35px;
+    padding: 5px;
+}
+
+.section-catorce h2{
+    font-family: couture;
+    color: white;
+    padding: 5px;
+}
+
+.section-catorce h3{
+    font-family: couture;
+    color: white;
+    margin: 5px;
+}
+
+.section-catorce h4{
+    font-family: couture;
+    color: white;
+    margin: 5px;
+}
+
+.section-catorce a{
+    font-family: eunomia;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.section-quince {
+    font-family: eunomia;
+    color: white;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* REGISTRARSE */
+
+.section-dieciseis h1{
+    font-family: heavitas;
+    color: white;
+    margin-top: 35px;
+    padding: 5px;
+}
+
+.section-dieciseis h2{
+    font-family: couture;
+    color: white;
+    padding: 5px;
+}
+
+.section-diecisiete{
+    font-family: eunomia;
+    color: white;
+    padding: 5px;
+}
+
+.section-dieciocho a{
+    font-family: couture;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+/*SERVICIOS*/
+
+.section-diecinueve h1{
+    font-family: heavitas;
+    color: white;
+    margin-top: 35px;
+    padding: 5px;
+}
+
+.section-diecinueve h2{
+    font-family: couture;
+    color: white;
+    padding: 5px;
+}
+
+.section-diecinueve div a{
+    font-family: couture;
+    color: white;
+    text-decoration: none;
+    padding: 5px
+}
+
+.section-diecinueve h3{
+    font-family: couture;
+    color: white;
+    padding: 5px;
+}
+
+.section-diecinueve ul{
+    font-family: couture;
+    color: white;
+    padding: 5px;
+}
