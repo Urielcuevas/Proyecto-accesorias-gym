@@ -293,34 +293,28 @@ footer{
 
 /* MENU PERFIL */
 
+.grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "cuadrado1 none none cuadrado2"
+    ;
+}
+
 .section-6{
     background-color: hsla(0, 0%, 0%, 0.801);
     height: 60vh;
-    width: 70vh;
+    width: 90vh;
     border-radius: 25px;
     margin: 120px 50px 60px 100px;
-} 
-
-.section-6 h3{
-    font-family: couture;
-    color: white;
-    margin: 5px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
+    grid-area: cuadrado1 ;
 }
 
-.section-6 h4{
-    font-family: couture;
-    color: white;
-    margin: 5px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-}
-
-.section-6 a{
+.section-6 div{
     font-family: eunomia;
+    font-size: 25px;
     color: white;
     text-decoration: none;
     margin: 5px;
@@ -329,49 +323,83 @@ footer{
     justify-content: center;
 }
 
-.section-catorce h1{
+.section-6 h1{
     font-family: heavitas;
+    font-size: 50px;
     color: white;
-    margin-top: 35px;
-    padding: 5px;
+    margin-top: 15px;
+    padding: 2px;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-}
+} 
 
-.section-catorce h2{
+.section-6 h2{
     font-family: couture;
+    font-size: 30px;
     color: white;
     padding: 5px;
+    margin-left: 25px;
     text-transform: uppercase;
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
-.section-catorce h4{
+.section-6 h4{
     font-family: couture;
     color: white;
     margin: 5px;
+    margin-top: 65px;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
+}
+
+.section-catorce h3{
+    font-family: couture;
+    font-size: 25px;
+    margin-top: 15px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+/*.section-catorce h4{
+    font-family: couture;
+    font-size: 10px;
+    color: white;
+    margin: 5px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}*/
+
+.section-catorce a{
+    font-family: couture;
+    color: white;
+    margin-top: 200px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+
 }
 
 .section-quince {
     background-color: hsla(0, 0%, 0%, 0.801);
-    height: 60vh;
-    width: 70vh;
+    height: 30vh;
+    width: 40vh;
     border-radius: 25px;
-    margin: 120px 50px 60px 100px;
+    margin: 250px 80px 60px 100px;
     font-family: eunomia;
     color: white;
     padding-left: 5px;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
+    grid-area: cuadrado2;
 }
-
-
 
 
 
