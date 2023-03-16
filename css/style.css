@@ -475,11 +475,12 @@ footer{
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
     "titulo titulo titulo"
     "titulo2 titulo2 titulo2"
     "mes1 mes2 mes3"
+    
 }
 
 .section-diecinueve{
@@ -517,10 +518,6 @@ footer{
     padding: 5px;
     display: flex;
     justify-content: center;
-    background-color: bisque;
-    border-radius: 80px;
-    width: 80px;
-    height: 80px;
     grid-area: mes1 ;
 }
 .servicio-2 a{
@@ -530,10 +527,6 @@ footer{
     padding: 5px;
     display: flex;
     justify-content: center;
-    background-color: bisque;
-    border-radius: 80px;
-    width: 80px;
-    height: 80px;
     grid-area: mes2 ;
 }
 
@@ -541,14 +534,10 @@ footer{
     font-family: couture;
     color: white;
     text-decoration: none;
-    padding: 5px;
     display: flex;
     justify-content: center;
-    background-color: bisque;
-    border-radius: 80px;
-    width: 80px;
-    height: 80px;
-    grid-area: mes3 ;
+    grid-area: mes3;
+    
 }
 
 .section-diecinueve h3{
@@ -559,8 +548,10 @@ footer{
     justify-content: center;
 }
 
-.section-diecinueve ul{
+.lista{
     font-family: couture;
+    font-size: 25px;
     color: white;
-    padding: 5px;
+    display: flex;
+    justify-content: center;
 }
