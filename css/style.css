@@ -555,3 +555,121 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+
+
+
+
+@media (max-width:1024px){
+    /*encabezado*/
+    body{
+        background-image: url(../assets/1inicio.jpg); 
+         background-repeat: no-repeat;
+         background-position-x: center;
+         height: 100vh;
+    }
+    
+    header{
+        background-color: rgba(0, 0, 0, 0.85);
+        height: 55px;
+        width: 100%;
+    }
+    
+    .section{
+        color: white;
+        display: flex;
+    }
+    .section-uno img{
+        width: 40px;
+        padding: 5px;
+    }
+    
+    .section-dos img{
+        width: 100px;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    
+    .barra-nav a{
+        color: white;
+        font-family: couture;
+        text-decoration: none;
+        margin-left: 85px;
+        
+    }
+    .barra-nav-division{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        margin-left: 35vh;
+    } 
+
+    /* footer */
+    footer{
+        background-color: hsla(0, 0%, 0%, 0.85);
+        height: 55px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        
+    
+    }
+    .section-2{
+        display: flex;
+        align-items: flex-end;
+        
+    }
+    .section-cuatro img{
+        width: 40px;
+        padding: 5px;
+        display: flex;
+    }
+    
+    .section-cinco img{
+        width: 100px;
+        margin-bottom: 15px;
+        display: flex;
+    }
+    
+    .section-3{
+        display: flex;
+        align-items: flex-end;
+        gap: 15px;
+    }
+    
+    .section-seis img{
+        width: 40px;
+        padding: 5px;
+        margin-left: 35vh
+    }
+    
+    .section-siete img{
+        width: 40px;
+        padding: 5px;
+    }
+    
+    .section-ocho img{
+        width: 40px;
+        padding: 5px;
+    }
+    
+    .section-nueve h3{
+        color: white;
+        font-family: eunomia;
+        margin-bottom: 15px;
+    }
+    
+    .section-nueve-2 h3{
+        color: white;
+        font-family: eunomia;
+        margin-bottom: 15px;
+    }
+    
+    .section-nueve-3 h3{
+        color: white;
+        font-family: eunomia;
+        margin-bottom: 15px;
+    }
+}
