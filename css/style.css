@@ -560,18 +560,18 @@ footer{
 
 
 
-@media (max-width:1024px){
+@media (max-width:1440px){
     /*encabezado*/
     body{
         background-image: url(../assets/1inicio.jpg); 
          background-repeat: no-repeat;
          background-position-x: center;
-         height: 100vh;
+         height: 100%;
     }
     
     header{
         background-color: rgba(0, 0, 0, 0.85);
-        height: 55px;
+        height: 50px;
         width: 100%;
     }
     
@@ -580,12 +580,12 @@ footer{
         display: flex;
     }
     .section-uno img{
-        width: 40px;
+        width: 35px;
         padding: 5px;
     }
     
     .section-dos img{
-        width: 100px;
+        width: 85px;
         margin-left: 5px;
         margin-top: 15px;
     }
@@ -602,9 +602,51 @@ footer{
         display: flex;
         justify-content: center;
         margin-top: 15px;
-        margin-left: 35vh;
+        margin-left: 55vh;
     } 
 
+    /*cuerpo index*/
+    .section-tres{
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 60vh;
+    width: 70vh;
+    border-radius: 25px;
+    margin: 120px 50px 60px 100px;
+    }
+    .section-tres h1{
+    color: white;
+    font-size: 50px;
+    font-family: heavitas;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    }   
+
+    .section-tres h2{
+    font-family: couture;
+    color: white;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    }
+
+    .section-tres div a{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 18%;
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+    font-family: couture;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top: 85px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    }
+
+    
     /* footer */
     footer{
         background-color: hsla(0, 0%, 0%, 0.85);
@@ -642,7 +684,7 @@ footer{
     .section-seis img{
         width: 40px;
         padding: 5px;
-        margin-left: 35vh
+        margin-left: 70vh
     }
     
     .section-siete img{
