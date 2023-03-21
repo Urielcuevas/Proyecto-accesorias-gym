@@ -22,7 +22,7 @@
 
 
 
-/*INDEX*/
+/*INDEX header*/
 body{
     background-image: url(../assets/1inicio.jpg); 
      background-repeat: no-repeat;
@@ -282,7 +282,6 @@ footer{
     justify-content: center;
     margin-top: 170px;
 }
-
 
 
 
@@ -558,79 +557,79 @@ footer{
 
 
 
+@media(max-width:1440px){
+/*INDEX header*/
+body{
+    background-image: url(../assets/1inicio.jpg); 
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 55px;
+    width: 100%;
+}
+
+.section{
+    color: white;
+    display: flex;
+}
+.section-uno img{
+    width: 40px;
+    padding: 5px;
+}
+
+.section-dos img{
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.barra-nav a{
+    color: white;
+    font-family: couture;
+    text-decoration: none;
+    margin-left: 85px;
+    
+}
+.barra-nav-division{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 65vh;
+}
 
 
-@media (max-width:1440px){
-    /*encabezado*/
-    body{
-        background-image: url(../assets/1inicio.jpg); 
-         background-repeat: no-repeat;
-         background-position-x: center;
-         height: 100%;
-    }
-    
-    header{
-        background-color: rgba(0, 0, 0, 0.85);
-        height: 50px;
-        width: 100%;
-    }
-    
-    .section{
-        color: white;
-        display: flex;
-    }
-    .section-uno img{
-        width: 35px;
-        padding: 5px;
-    }
-    
-    .section-dos img{
-        width: 85px;
-        margin-left: 5px;
-        margin-top: 15px;
-    }
-    
-    .barra-nav a{
-        color: white;
-        font-family: couture;
-        text-decoration: none;
-        margin-left: 85px;
-        
-    }
-    .barra-nav-division{
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-        margin-left: 55vh;
-    } 
-
-    /*cuerpo index*/
-    .section-tres{
+/*cuerpo index*/
+.section-tres{
     background-color: hsla(0, 0%, 0%, 0.801);
     height: 60vh;
     width: 70vh;
     border-radius: 25px;
-    margin: 120px 50px 60px 100px;
-    }
-    .section-tres h1{
+    margin: 110px 50px 60px 100px;
+}
+.section-tres h1{
     color: white;
     font-size: 50px;
     font-family: heavitas;
+    padding-top: 30px;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    }   
+}
 
-    .section-tres h2{
+.section-tres h2{
     font-family: couture;
     color: white;
     margin-top: 25px;
     display: flex;
     justify-content: center;
-    }
+}
 
-    .section-tres div a{
+.section-tres div a{
     background-color: rgb(255, 255, 255);
     position: absolute;
     left: 18%;
@@ -644,74 +643,420 @@ footer{
     text-decoration: none;
     display: flex;
     justify-content: center;
-    }
+}
 
+
+
+
+
+/*pie de pagina*/
+
+footer{
+    background-color: hsla(0, 0%, 0%, 0.85);
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
     
-    /* footer */
-    footer{
-        background-color: hsla(0, 0%, 0%, 0.85);
-        height: 55px;
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        display: flex;
-        
+
+}
+.section-2{
+    display: flex;
+    align-items: flex-end;
     
-    }
-    .section-2{
-        display: flex;
-        align-items: flex-end;
-        
-    }
-    .section-cuatro img{
-        width: 40px;
-        padding: 5px;
-        display: flex;
-    }
+}
+.section-cuatro img{
+    width: 40px;
+    padding: 5px;
+    display: flex;
+}
+
+.section-cinco img{
+    width: 100px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.section-3{
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.section-seis img{
+    width: 40px;
+    padding: 5px;
+    margin-left: 70vh
+}
+
+.section-siete img{
+    width: 40px;
+    padding: 5px;
+}
+
+.section-ocho img{
+    width: 40px;
+    padding: 5px;
+}
+
+.section-nueve h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+}
+
+.section-nueve-2 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+}
+
+.section-nueve-3 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+}
+}
+
+
+
+
+
+
+@media(max-width:768px){
+    /*INDEX header*/
+body{
+    background-image: url(../assets/1inicio.jpg); 
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 55px;
+    width: 100%;
+}
+
+.section{
+    color: white;
+    display: flex;
+}
+.section-uno img{
+    width: 40px;
+    padding: 5px;
+}
+
+.section-dos img{
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.barra-nav a{
+    color: white;
+    font-family: couture;
+    text-decoration: none;
+    margin-left: 85px;
     
-    .section-cinco img{
-        width: 100px;
-        margin-bottom: 15px;
-        display: flex;
-    }
+}
+.barra-nav-division{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 05vh;
+}
+
+
+/*cuerpo index*/
+.section-tres{
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 50vh;
+    width: 60vh;
+    border-radius: 25px;
+    margin: 130px 50px 60px 60px;
+}
+.section-tres h1{
+    color: white;
+    font-size: 40px;
+    font-family: heavitas;
+    padding-top: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.section-tres h2{
+    font-family: couture;
+    color: white;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-tres div a{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 27%;
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+    font-family: couture;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top: 85px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/*pie de pagina*/
+
+footer{
+    background-color: hsla(0, 0%, 0%, 0.85);
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
     
-    .section-3{
-        display: flex;
-        align-items: flex-end;
-        gap: 15px;
-    }
+
+}
+.section-2{
+    display: flex;
+    align-items: flex-end;
     
-    .section-seis img{
-        width: 40px;
-        padding: 5px;
-        margin-left: 70vh
-    }
+}
+.section-cuatro img{
+    width: 35px;
+    padding: 5px;
+    display: flex;
+}
+
+.section-cinco img{
+    width: 90px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.section-3{
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    margin-bottom: 3px;
+}
+
+.section-seis img{
+    width: 30px;
+    padding: 5px;
+    margin-left: 15vh
+}
+
+.section-siete img{
+    width: 30px;
+    padding: 5px;
+}
+
+.section-ocho img{
+    width: 30px;
+    padding: 5px;
+}
+
+.section-nueve h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.section-nueve-2 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.section-nueve-3 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+}
+
+
+
+
+@media(max-width:390px){
+        /*INDEX header*/
+body{
+    background-image: url(../assets/1inicio.jpg); 
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 55px;
+    width: 100%;
+}
+
+.section{
+    color: white;
+    display: flex;
+}
+.section-uno img{
+    width: 25px;
+    padding: 5px;
+}
+
+.section-dos img{
+    width: 60px;
+    margin-left: 5px;
+    margin-top: 12px;
+}
+
+.barra-nav a{
+    color: white;
+    font-family: couture;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 10px;
     
-    .section-siete img{
-        width: 40px;
-        padding: 5px;
-    }
+}
+.barra-nav-division{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 1vh;
+}
+
+
+/*cuerpo index*/
+.section-tres{
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 50vh;
+    width: 40vh;
+    border-radius: 25px;
+    margin: 120px 50px 60px 20px;
+}
+.section-tres h1{
+    color: white;
+    font-size: 25px;
+    font-family: heavitas;
+    padding-top:  50px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.section-tres h2{
+    font-family: couture;
+    font-size: 15px;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-tres div a{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 22%;
+    height: 35px;
+    width: 200px;
+    border-radius: 15px;
+    font-family: couture;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 85px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/*pie de pagina*/
+
+footer{
+    background-color: hsla(0, 0%, 0%, 0.85);
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
     
-    .section-ocho img{
-        width: 40px;
-        padding: 5px;
-    }
+
+}
+.section-2{
+    display: flex;
+    align-items: flex-end;
     
-    .section-nueve h3{
-        color: white;
-        font-family: eunomia;
-        margin-bottom: 15px;
-    }
-    
-    .section-nueve-2 h3{
-        color: white;
-        font-family: eunomia;
-        margin-bottom: 15px;
-    }
-    
-    .section-nueve-3 h3{
-        color: white;
-        font-family: eunomia;
-        margin-bottom: 15px;
-    }
+}
+.section-cuatro img{
+    width: 25px;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.section-cinco img{
+    width: 50px;
+    margin-bottom: 23px;
+    display: flex;
+}
+
+.section-3{
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    margin-bottom: 3px;
+}
+
+.section-seis img{
+    width: 30px;
+    padding: 5px;
+    margin-left: 10vh
+}
+
+.section-siete img{
+    width: 30px;
+    padding: 5px;
+}
+
+.section-ocho img{
+    width: 30px;
+    padding: 5px;
+}
+
+.section-nueve h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 1px;
+}
+
+.section-nueve-2 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 1px;
+}
+
+.section-nueve-3 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 1px;
+}
 }
