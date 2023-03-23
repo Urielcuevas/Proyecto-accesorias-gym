@@ -76,20 +76,20 @@ header{
 /*cuerpo index*/
 .section-tres{
     background-color: hsla(0, 0%, 0%, 0.801);
-    height: 60vh;
-    width: 70vh;
+    height: 60%;
+    width: 50%;
     border-radius: 25px;
     margin: 100px 50px 60px 100px;
     position: fixed;
 }
 .section-tres h1{
     color: white;
-    font-size: 50px;
+    font-size: 200%;
     font-family: heavitas;
     padding-top: 20px;
+    padding-left: 20px;
     text-transform: uppercase;
     display: flex;
-    justify-content: center;
 }
 
 .section-tres h2{
@@ -97,7 +97,7 @@ header{
     color: white;
     margin-top: 30px;
     display: flex;
-    justify-content: center;
+    padding-left: 20px;
 }
 
 .section-tres div a{
@@ -106,8 +106,8 @@ header{
     justify-content: center;
     background-color: rgb(255, 255, 255);
     position:absolute;
-    margin-left: 140px;
-    margin-top: 80px;
+    margin-left: 60px;
+    margin-top: 40px;
     height: 50px;
     width: 300px;
     border-radius: 15px;
@@ -609,12 +609,12 @@ footer{
         height: 60%;
         width: 70%;
         border-radius: 25px;
-        margin: 100px 50px 60px 35px;
+        margin: 35px 50px 60px 35px;
         position: fixed;
 }
 .section-tres h1{
     color: white;
-    font-size: 40px;
+    font-size: 200%;
     font-family: heavitas;
     padding-top: 20px;
     padding-left: 20px;
@@ -639,8 +639,8 @@ footer{
     margin-top: 80px;
     background-color: rgb(255, 255, 255);
     position:fixed;
-    margin-top: 60px;
-    height: 7%;
+    margin-top: 30px;
+    height: 8%;
     width: 40%;
     border-radius: 15px;
     font-family: couture;
@@ -734,13 +734,24 @@ footer{
         margin-top: 80px;
         background-color: rgb(255, 255, 255);
         position:fixed;
-        margin-top: 40px;
+        margin-top: 20px;
         height: 7%;
         width: 40%;
         border-radius: 15px;
         font-family: couture;
         font-size: 30px;
         color: rgb(0, 0, 0);
+}
+/*cuerpo*/
+.section-tres h1{
+    color: white;
+    font-size: 180%;
+    font-family: heavitas;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
 }
  }
 
@@ -752,7 +763,7 @@ footer{
         height: 60%;
         width: 70%;
         border-radius: 25px;
-        margin: 100px 50px 60px 35px;
+        margin: 20px 50px 60px 35px;
         position: fixed;
 }
 .section-tres h1{
@@ -782,7 +793,7 @@ footer{
     margin-top: 40px;
     background-color: rgb(255, 255, 255);
     position:fixed;
-    margin-top: 60px;
+    margin-top: 20px;
     height: 6%;
     width: 40%;
     border-radius: 15px;
@@ -790,6 +801,17 @@ footer{
     font-size: 30px;
     color: rgb(0, 0, 0);
 }   
+/*cuerpo*/
+.section-tres h1{
+    color: white;
+    font-size: 150%;
+    font-family: heavitas;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
  }
 
  @media (max-width:446px){
@@ -801,7 +823,7 @@ footer{
         margin-top: 40px;
         background-color: rgb(255, 255, 255);
         position:fixed;
-        margin-top: 60px;
+        margin-top: 20px;
         height: 6%;
         width: 40%;
         border-radius: 15px;
@@ -863,7 +885,7 @@ footer{
         height: 50%;
         width: 70%;
         border-radius: 25px;
-        margin: 100px 50px 60px 35px;
+        margin: 20px 50px 60px 35px;
         position: fixed;
 }
 .section-tres h1{
@@ -893,7 +915,7 @@ footer{
     margin-top: 40px;
     background-color: rgb(255, 255, 255);
     position:fixed;
-    margin-top: 60px;
+    margin-top: 20px;
     height: 4%;
     width: 40%;
     border-radius: 15px;
