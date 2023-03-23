@@ -25,7 +25,7 @@
 
 /*INDEX header*/
 body{
-    background-image: url(../assets/Fondo.jpg); 
+    background-image: url(../assets/1inicio.jpg); 
      background-repeat: no-repeat;
      background-position: center;
 }
@@ -106,7 +106,7 @@ header{
     justify-content: center;
     background-color: rgb(255, 255, 255);
     position:absolute;
-    margin-left: 180px;
+    margin-left: 140px;
     margin-top: 80px;
     height: 50px;
     width: 300px;
@@ -559,12 +559,418 @@ footer{
 
 
 @media (max-width:768px){
-    .section-tres{
+    header{
+        background-color: rgba(0, 0, 0, 0.85);
+        width: 100%;
+        height: 90px;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section{
+        color: white;
+        display: flex;
+        justify-content: center;
+
+    }
+    .section-uno img{
+        display: flex;
+        width: 40px;
+        padding: 5px;
+    }
+    
+    .section-dos img{
+        width: 100px;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    
+    .barra-nav a{
+        color: white;
+        font-family: couture;
+        text-decoration: none;
+        padding-left: 15px;
+        padding-right: 10px;
+        
+    }
+    
+    .barra-nav-division{
+        list-style:none;
+        margin-top: 1px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*cuerpo*/
+    
+.section-tres{
         background-color: hsla(0, 0%, 0%, 0.801);
-        height: 60vh;
-        width: 70vh;
+        height: 60%;
+        width: 70%;
         border-radius: 25px;
-        margin: 100px 50px 60px 15px;
+        margin: 100px 50px 60px 35px;
         position: fixed;
 }
+.section-tres h1{
+    color: white;
+    font-size: 40px;
+    font-family: heavitas;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
 }
+.section-tres h2{
+    font-family: couture;
+    font-size: 20px;
+    padding-left: 20px;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.section-tres div a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 80px;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    margin-top: 60px;
+    height: 7%;
+    width: 40%;
+    border-radius: 15px;
+    font-family: couture;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+/*pie de pagina*/
+
+footer{
+    background-color: hsla(0, 0%, 0%, 0.85);
+    height: 90px;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+}
+.section-cuatro img{
+    width: 40px;
+    padding: 5px;
+    display: flex;
+}
+
+.section-cinco img{
+    width: 100px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.section-3{
+    display: flex;
+    gap: 15px;
+    padding-right: 15px;
+    justify-content: center;
+}
+
+.section-seis img{
+    width: 20px;
+    padding: 5px;
+}
+
+.section-siete img{
+    width: 20px;
+    padding: 5px;
+}
+
+.section-ocho img{
+    width: 20px;
+    padding: 5px;
+}
+
+.section-nueve h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+.section-nueve-2 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+.section-nueve-3 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+}
+
+
+
+
+
+
+
+@media (max-width:636px){
+    .section-tres div a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+        margin-top: 80px;
+        background-color: rgb(255, 255, 255);
+        position:fixed;
+        margin-top: 40px;
+        height: 7%;
+        width: 40%;
+        border-radius: 15px;
+        font-family: couture;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+}
+ }
+
+
+
+ @media (max-width:522px){
+    .section-tres{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 60%;
+        width: 70%;
+        border-radius: 25px;
+        margin: 100px 50px 60px 35px;
+        position: fixed;
+}
+.section-tres h1{
+    color: white;
+    font-size: 30px;
+    font-family: heavitas;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+.section-tres h2{
+    font-family: couture;
+    font-size: 15px;
+    padding-left: 20px;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.section-tres div a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    margin-top: 60px;
+    height: 6%;
+    width: 40%;
+    border-radius: 15px;
+    font-family: couture;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}   
+ }
+
+ @media (max-width:446px){
+    .section-tres div a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+        margin-top: 40px;
+        background-color: rgb(255, 255, 255);
+        position:fixed;
+        margin-top: 60px;
+        height: 6%;
+        width: 40%;
+        border-radius: 15px;
+        font-family: couture;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    } 
+ }
+
+ @media (max-width:354px){
+
+    header{
+        background-color: rgba(0, 0, 0, 0.85);
+        width: 100%;
+        height: 90px;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section{
+        color: white;
+        display: flex;
+        justify-content: center;
+
+    }
+    .section-uno img{
+        display: flex;
+        width: 40px;
+        padding: 5px;
+    }
+    
+    .section-dos img{
+        width: 100px;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    
+    .barra-nav a{
+        color: white;
+        font-family: couture;
+        text-decoration: none;
+        padding-left: 15px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    
+    .barra-nav-division{
+        list-style:none;
+        margin-top: 1px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+/*cuerpo*/
+    .section-tres{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 50%;
+        width: 70%;
+        border-radius: 25px;
+        margin: 100px 50px 60px 35px;
+        position: fixed;
+}
+.section-tres h1{
+    color: white;
+    font-size: 20px;
+    font-family: heavitas;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+.section-tres h2{
+    font-family: couture;
+    font-size: 15px;
+    padding-left: 20px;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.section-tres div a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    margin-top: 60px;
+    height: 4%;
+    width: 40%;
+    border-radius: 15px;
+    font-family: couture;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+} 
+
+
+
+/*pie de pagina*/
+
+footer{
+    background-color: hsla(0, 0%, 0%, 0.85);
+    height: 90px;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+}
+.section-cuatro img{
+    width: 40px;
+    padding: 5px;
+    display: flex;
+}
+
+.section-cinco img{
+    width: 100px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.section-3{
+    display: flex;
+    gap: 8px;
+    padding-right: 15px;
+    justify-content: center;
+}
+
+.section-seis img{
+    width: 20px;
+    padding: 5px;
+}
+
+.section-siete img{
+    width: 20px;
+    padding: 5px;
+}
+
+.section-ocho img{
+    width: 20px;
+    padding: 5px;
+}
+
+.section-nueve h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+.section-nueve-2 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+.section-nueve-3 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+ }
