@@ -26,8 +26,7 @@
 body{
     background-image: url(../assets/1inicio.jpg); 
      background-repeat: no-repeat;
-     background-size: cover;
-     height: 100vh;
+     background-size:cover;
 }
 
 header{
@@ -64,6 +63,8 @@ header{
     justify-content: center;
     margin-top: 15px;
     margin-left: 125vh;
+    position: absolute;
+    padding-left: 15pxpx;
 }
 
 
@@ -126,7 +127,7 @@ header{
 footer{
     background-color: hsla(0, 0%, 0%, 0.85);
     height: 55px;
-    position: absolute;
+    position:fixed;
     bottom: 0;
     display: flex;
     
@@ -153,12 +154,13 @@ footer{
     display: flex;
     align-items: flex-end;
     gap: 15px;
+    padding-right: 15px;
 }
 
 .section-seis img{
     width: 40px;
     padding: 5px;
-    margin-left: 125vh
+    margin-left: 125vh;
 }
 
 .section-siete img{
@@ -721,6 +723,165 @@ footer{
 
 
 
+@media(max-width:1024px){
+/*INDEX header*/
+body{
+    background-image: url(../assets/1inicio.jpg); 
+     background-repeat: no-repeat;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 55px;
+    width: 100%;
+}
+
+.section{
+    color: white;
+    display: flex;
+}
+.section-uno img{
+    width: 40px;
+    padding: 5px;
+}
+
+.section-dos img{
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.barra-nav a{
+    color: white;
+    font-family: couture;
+    text-decoration: none;
+    margin-left: 85px;
+    
+}
+.barra-nav-division{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 35vh;
+}
+
+
+/*cuerpo index*/
+.section-tres{
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 60vh;
+    width: 70vh;
+    border-radius: 25px;
+    margin: 110px 50px 60px 100px;
+}
+.section-tres h1{
+    color: white;
+    font-size: 50px;
+    font-family: heavitas;
+    padding-top: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.section-tres h2{
+    font-family: couture;
+    color: white;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-tres div a{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 24%;
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+    font-family: couture;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top: 85px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/*pie de pagina*/
+
+footer{
+    background-color: hsla(0, 0%, 0%, 0.85);
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    
+
+}
+.section-2{
+    display: flex;
+    align-items: flex-end;
+    
+}
+.section-cuatro img{
+    width: 40px;
+    padding: 5px;
+    display: flex;
+}
+
+.section-cinco img{
+    width: 100px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.section-3{
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.section-seis img{
+    width: 40px;
+    padding: 5px;
+    margin-left: 30vh
+}
+
+.section-siete img{
+    width: 40px;
+    padding: 5px;
+}
+
+.section-ocho img{
+    width: 40px;
+    padding: 5px;
+}
+
+.section-nueve h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+}
+
+.section-nueve-2 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+}
+
+.section-nueve-3 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+}    
+}
 
 
 
@@ -893,13 +1054,13 @@ footer{
 
 
 
-@media(max-width:390px){
+@media(max-width:375px){
         /*INDEX header*/
 body{
     background-image: url(../assets/1inicio.jpg); 
      background-repeat: no-repeat;
-     background-size: cover;
-     height: 100vh;
+     background-size: auto;
+     height: 100%;
 }
 
 header{
@@ -946,7 +1107,7 @@ header{
     height: 50vh;
     width: 40vh;
     border-radius: 25px;
-    margin: 120px 50px 60px 20px;
+    margin: 120px 50px 60px 5px;
 }
 .section-tres h1{
     color: white;
