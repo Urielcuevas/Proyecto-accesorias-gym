@@ -83,12 +83,13 @@ header{
     color: white;
     font-family: couture;
     text-decoration: none;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 10px;
 }
 
 .barra-nav-division{
     list-style:none;
-    padding: 18px;   
+    margin-top: 18px;
 }
 
 
