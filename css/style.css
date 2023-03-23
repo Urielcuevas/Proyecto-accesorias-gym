@@ -558,3 +558,13 @@ footer{
 
 
 
+@media (max-width:768px){
+    .section-tres{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 60vh;
+        width: 70vh;
+        border-radius: 25px;
+        margin: 100px 50px 60px 15px;
+        position: fixed;
+}
+}
