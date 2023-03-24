@@ -601,7 +601,36 @@ footer{
     }
 }
 
+@media (max-width:1024px){
+    /*inicio sesion*/
+    .section-4{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 60%;
+        width: 70%;
+        border-radius: 25px;
+        margin: 100px 50px 60px 110px;
+        position: fixed;
+    }
 
+    .section-trece a{
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        font-family: couture;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        border-radius: 15px;
+        left: 36%;
+        height: 50px;
+        width: 250px;
+        position: fixed;
+    }
+}
 
 @media (max-width:768px){
     header{
@@ -798,6 +827,71 @@ footer{
     display: flex;
     flex-direction: column;
 }
+
+    /*inicio sesion*/
+    .section-4{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 60%;
+        width: 70%;
+        border-radius: 25px;
+        margin: 100px 50px 60px 110px;
+        position: fixed;
+    }
+
+    .section-diez h1{
+        font-family: heavitas;
+        color: white;
+        font-size: 200%;
+        padding-left: 5px;
+        margin-top: 55px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .section-diez h2{
+        font-family: couture;
+        font-size: 15px;
+        color: white;
+        padding-left: 5px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-trece a{
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        font-family: couture;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        border-radius: 15px;
+        left: 32%;
+        height: 50px;
+        width: 250px;
+        position: fixed;
+    }
+
+    .section-trece-2 a{
+        font-family: couture;
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    
  }
 
 
@@ -857,7 +951,80 @@ footer{
     display: flex;
     flex-direction: column;
 }
+
+    /*inicio sesion*/
+    .section-4{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 60%;
+        width: 70%;
+        border-radius: 25px;
+        margin: 100px 50px 60px 80px;
+        position: fixed;
+    }
+
+    .section-diez h1{
+        font-family: heavitas;
+        color: white;
+        font-size: 200%;
+        padding-left: 5px;
+        margin-top: 55px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .section-diez h2{
+        font-family: couture;
+        font-size: 15px;
+        color: white;
+        padding-left: 5px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-trece a{
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        font-family: couture;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        border-radius: 15px;
+        left: 26%;
+        height: 25px;
+        width: 250px;
+        position: fixed;
+    }
+
+    .section-trece-2 a{
+        font-family: couture;
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        margin-top: 120px;
+    }
+    
  }
+
+
+
+
+
+
+
+
 
  @media (max-width:446px){
     .section-tres div a{
@@ -876,7 +1043,108 @@ footer{
         font-size: 20px;
         color: rgb(0, 0, 0);
     } 
+
+        /*inicio sesion*/
+        .section-4{
+            background-color: hsla(0, 0%, 0%, 0.801);
+            height: 70%;
+            width: 70%;
+            border-radius: 25px;
+            margin: 40px 50px 60px 60px;
+            position: fixed;
+        }
+    
+        .section-diez h1{
+            font-family: heavitas;
+            color: white;
+            font-size: 150%;
+            padding-left: 5px;
+            margin-top: 55px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .section-diez h2{
+            font-family: couture;
+            font-size: 60%;
+            color: white;
+            padding-left: 1px;
+            padding-top: 22px;
+            padding-bottom: 15px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .section-once{
+            font-family: eunomia;
+            font-size: 15px;
+            color: white;
+            padding-left: 5px;
+            margin-right: 33px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            margin-top: 55px;
+        }
+        
+        .section-doce{
+            font-family: eunomia;
+            font-size: 15px;
+            color: white;
+            padding-left: 5px;
+            margin-right: 5px; 
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        
+    
+
+        .section-trece a{
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            font-family: couture;
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 5px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            border-radius: 15px;
+            left: 24%;
+            height: 25px;
+            width: 180px;
+            position: fixed;
+        }
+    
+        .section-trece-2 a{
+            font-family: couture;
+            font-size: 60%;
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            margin-top: 120px;
+        }
+        
  }
+
+
+
+
+
+
+
+
+
 
  @media (max-width:354px){
 
