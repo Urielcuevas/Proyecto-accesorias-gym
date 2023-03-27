@@ -159,35 +159,35 @@ footer{
 
 .section-seis img{
     width: 40px;
-    padding: 5px;
+    margin-bottom: 6px;
 }
 
 .section-siete img{
     width: 40px;
-    padding: 5px;
+    margin-bottom: 6px;
 }
 
 .section-ocho img{
     width: 40px;
-    padding: 5px;
+    margin-bottom: 6px;
 }
 
 .section-nueve h3{
     color: white;
     font-family: eunomia;
-    margin-bottom: 15px;
+    margin-bottom: 6px;
 }
 
 .section-nueve-2 h3{
     color: white;
     font-family: eunomia;
-    margin-bottom: 15px;
+    margin-bottom: 6px;
 }
 
 .section-nueve-3 h3{
     color: white;
     font-family: eunomia;
-    margin-bottom: 15px;
+    margin-bottom: 6px;
 }
 
 
@@ -683,7 +683,7 @@ footer{
         height: 60%;
         width: 70%;
         border-radius: 25px;
-        margin: 35px 50px 60px 35px;
+        margin: 85px 50px 60px 35px;
         position: fixed;
 }
 .section-tres h1{
@@ -758,17 +758,17 @@ footer{
 
 .section-seis img{
     width: 20px;
-    padding: 5px;
+     margin-bottom: 8px;
 }
 
 .section-siete img{
     width: 20px;
-    padding: 5px;
+     margin-bottom: 8px;
 }
 
 .section-ocho img{
     width: 20px;
-    padding: 5px;
+     margin-bottom: 8px;
 }
 
 .section-nueve h3{
@@ -776,6 +776,7 @@ footer{
     font-family: eunomia;
     margin-bottom: 15px;
     font-size: 10px;
+    margin-bottom: 12px;
 }
 
 .section-nueve-2 h3{
@@ -783,6 +784,7 @@ footer{
     font-family: eunomia;
     margin-bottom: 15px;
     font-size: 10px;
+    margin-bottom: 12px;
 }
 
 .section-nueve-3 h3{
@@ -790,6 +792,7 @@ footer{
     font-family: eunomia;
     margin-bottom: 15px;
     font-size: 10px;
+    margin-bottom: 12px;
 }
 }
 
@@ -902,7 +905,7 @@ footer{
         height: 60%;
         width: 70%;
         border-radius: 25px;
-        margin: 20px 50px 60px 35px;
+        margin: 90px 50px 60px 35px;
         position: fixed;
 }
 .section-tres h1{
@@ -1198,7 +1201,7 @@ footer{
         height: 50%;
         width: 70%;
         border-radius: 25px;
-        margin: 20px 50px 60px 35px;
+        margin: 120px 50px 60px 35px;
         position: fixed;
 }
 .section-tres h1{
