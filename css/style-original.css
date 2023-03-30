@@ -1,0 +1,1314 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: 0%;
+}
+
+@font-face {
+    font-family: heavitas;
+    src: url(../assets/fuentes/Heavitas.ttf);
+}
+@font-face {
+    font-family: couture;
+    src: url(../assets/fuentes/couture-bld.otf);
+}
+
+@font-face {
+    font-family: eunomia;
+    src: url(../assets/fuentes/Eunomia-Light.otf);
+}
+
+
+
+
+
+/*INDEX header*/
+body{
+    background-image: url(../assets/1inicio.jpg); 
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    height: 55px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section{
+    color: white;
+    display: flex;
+}
+.section-uno img{
+    display: flex;
+    width: 40px;
+    padding: 5px;
+}
+
+.section-dos img{
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.barra-nav a{
+    color: white;
+    font-family: couture;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.barra-nav-division{
+    list-style:none;
+    margin-top: 18px;
+    
+}
+
+
+
+
+
+
+/*cuerpo index*/
+.section-tres{
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 60%;
+    width: 50%;
+    border-radius: 25px;
+    margin: 100px 50px 60px 100px;
+    position: fixed;
+}
+.section-tres h1{
+    color: white;
+    font-size: 200%;
+    font-family: heavitas;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.section-tres h2{
+    font-family: couture;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.section-tres div a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    margin-left: 60px;
+    margin-top: 40px;
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+    font-family: couture;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+/*pie de pagina*/
+
+footer{
+    background-color: hsla(0, 0%, 0%, 0.85);
+    height: 55px;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.section-2{
+    display: flex;
+    align-items: flex-end;
+    
+}
+.section-cuatro img{
+    width: 40px;
+    padding: 5px;
+    display: flex;
+}
+
+.section-cinco img{
+    width: 100px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.section-3{
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+    padding-right: 15px;
+}
+
+.section-seis img{
+    width: 40px;
+    margin-bottom: 6px;
+}
+
+.section-siete img{
+    width: 40px;
+    margin-bottom: 6px;
+}
+
+.section-ocho img{
+    width: 40px;
+    margin-bottom: 6px;
+}
+
+.section-nueve h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 6px;
+}
+
+.section-nueve-2 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 6px;
+}
+
+.section-nueve-3 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+/* INICIOSESION */
+
+.section-4{
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 60%;
+    width: 50%;
+    border-radius: 25px;
+    margin: 100px 50px 60px 100px;
+    position: fixed;
+}
+
+.section-diez h1{
+    font-family: heavitas;
+    color: white;
+    font-size: 200%;
+    padding-left: 5px;
+    margin-top: 55px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.section-diez h2{
+    font-family: couture;
+    color: white;
+    padding-left: 5px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.section-once{
+    font-family: eunomia;
+    font-size: 25px;
+    color: white;
+    padding-left: 5px;
+    margin-right: 33px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.section-doce{
+    font-family: eunomia;
+    font-size: 25px;
+    color: white;
+    padding-left: 5px;
+    margin-right: 5px; 
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.section-trece a{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: couture;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    border-radius: 15px;
+    left: 350px;
+    height: 50px;
+    width: 250px;
+}
+
+.section-trece-2 a{
+    font-family: couture;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+/* MENU PERFIL */
+
+.grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "cuadrado1 none none cuadrado2"
+    ;
+}
+
+.section-6{
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 60vh;
+    width: 90vh;
+    border-radius: 25px;
+    margin: 120px 50px 60px 100px;
+    grid-area: cuadrado1 ;
+}
+
+.section-6 div{
+    font-family: eunomia;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.section-6 h1{
+    font-family: heavitas;
+    font-size: 50px;
+    color: white;
+    margin-top: 15px;
+    padding: 2px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+} 
+
+.section-6 h2{
+    font-family: couture;
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+    margin-left: 25px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: start;
+}
+
+.section-6 h4{
+    font-family: couture;
+    color: white;
+    margin: 5px;
+    margin-top: 65px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.section-catorce h3{
+    font-family: couture;
+    font-size: 25px;
+    margin-top: 15px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+/*.section-catorce h4{
+    font-family: couture;
+    font-size: 10px;
+    color: white;
+    margin: 5px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}*/
+
+.section-catorce a{
+    font-family: couture;
+    color: white;
+    margin-top: 200px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-quince {
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 30vh;
+    width: 40vh;
+    border-radius: 25px;
+    margin: 250px 80px 60px 100px;
+    font-family: eunomia;
+    color: white;
+    padding-left: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    grid-area: cuadrado2;
+}
+
+
+
+
+
+
+
+/* REGISTRARSE */
+
+.section-diecisiete{
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 60vh;
+    width: 70vh;
+    border-radius: 25px;
+    margin: 120px 50px 60px 100px;
+}
+
+.section-diecisiete label{
+    font-family: eunomia;
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.section-dieciseis h1{
+    font-family: heavitas;
+    font-size: 50px;
+    color: white;
+    margin-top: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-dieciseis h2{
+    font-family: couture;
+    font-size: 30px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.section-dieciocho a{
+    font-family: couture;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-top: 100px;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/*SERVICIOS*/
+
+.grid-2{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "titulo titulo titulo"
+    "titulo2 titulo2 titulo2"
+    "mes1 mes2 mes3"
+    
+}
+
+.section-diecinueve{
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 60vh;
+    width: 100vh;
+    border-radius: 25px;
+    margin: 120px 50px 60px 100px;
+}
+
+.section-diecinueve h1{
+    font-family: heavitas;
+    font-size: 50px;
+    color: white;
+    margin-top: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    grid-area: titulo;
+}
+
+.section-diecinueve h2{
+    font-family: couture;
+    color: white;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    grid-area: titulo2;
+}
+
+.servicio-1 a{
+    font-family: couture;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    grid-area: mes1 ;
+}
+.servicio-2 a{
+    font-family: couture;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    grid-area: mes2 ;
+}
+
+.servicio-3 a{
+    font-family: couture;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    grid-area: mes3;
+    
+}
+
+.section-diecinueve h3{
+    font-family: couture;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.lista{
+    font-family: couture;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:1440px){
+    .section-diez h2{
+        font-family: couture;
+        color: white;
+        font-size: 20px;
+        padding-left: 5px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+    .section-trece a{
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        font-family: couture;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        border-radius: 15px;
+        left: 22%;
+        height: 50px;
+        width: 250px;
+        position: fixed;
+    }
+    .section-trece-2 a{
+        font-family: couture;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:1024px){
+    /*inicio sesion*/
+    .section-4{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 60%;
+        width: 70%;
+        border-radius: 25px;
+        margin: 100px 50px 60px 110px;
+        position: fixed;
+    }
+
+    .section-trece a{
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        font-family: couture;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        border-radius: 15px;
+        left: 36%;
+        height: 50px;
+        width: 250px;
+        position: fixed;
+    }
+}
+
+@media (max-width:768px){
+    header{
+        background-color: rgba(0, 0, 0, 0.85);
+        width: 100%;
+        height: 90px;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section{
+        color: white;
+        display: flex;
+        justify-content: center;
+
+    }
+    .section-uno img{
+        display: flex;
+        width: 40px;
+        padding: 5px;
+    }
+    
+    .section-dos img{
+        width: 100px;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    
+    .barra-nav a{
+        color: white;
+        font-family: couture;
+        text-decoration: none;
+        padding-left: 15px;
+        padding-right: 10px;
+        
+    }
+    
+    .barra-nav-division{
+        list-style:none;
+        margin-top: 1px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*cuerpo*/
+    
+.section-tres{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 60%;
+        width: 70%;
+        border-radius: 25px;
+        margin: 85px 50px 60px 35px;
+        position: fixed;
+}
+.section-tres h1{
+    color: white;
+    font-size: 200%;
+    font-family: heavitas;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+.section-tres h2{
+    font-family: couture;
+    font-size: 20px;
+    padding-left: 20px;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.section-tres div a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 80px;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    margin-top: 30px;
+    height: 8%;
+    width: 40%;
+    border-radius: 15px;
+    font-family: couture;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+/*pie de pagina*/
+
+footer{
+    background-color: hsla(0, 0%, 0%, 0.85);
+    height: 90px;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+}
+.section-cuatro img{
+    width: 40px;
+    padding: 5px;
+    display: flex;
+}
+
+.section-cinco img{
+    width: 100px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.section-3{
+    display: flex;
+    gap: 15px;
+    padding-right: 15px;
+    justify-content: center;
+}
+
+.section-seis img{
+    width: 20px;
+     margin-bottom: 8px;
+}
+
+.section-siete img{
+    width: 20px;
+     margin-bottom: 8px;
+}
+
+.section-ocho img{
+    width: 20px;
+     margin-bottom: 8px;
+}
+
+.section-nueve h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 10px;
+    margin-bottom: 12px;
+}
+
+.section-nueve-2 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 10px;
+    margin-bottom: 12px;
+}
+
+.section-nueve-3 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 10px;
+    margin-bottom: 12px;
+}
+}
+
+
+
+
+
+
+
+@media (max-width:636px){
+    .section-tres div a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+        margin-top: 80px;
+        background-color: rgb(255, 255, 255);
+        position:fixed;
+        margin-top: 20px;
+        height: 7%;
+        width: 40%;
+        border-radius: 15px;
+        font-family: couture;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+}
+/*cuerpo*/
+.section-tres h1{
+    color: white;
+    font-size: 180%;
+    font-family: heavitas;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+    /*inicio sesion*/
+    .section-4{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 60%;
+        width: 70%;
+        border-radius: 25px;
+        margin: 100px 50px 60px 110px;
+        position: fixed;
+    }
+
+    .section-diez h1{
+        font-family: heavitas;
+        color: white;
+        font-size: 200%;
+        padding-left: 5px;
+        margin-top: 55px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .section-diez h2{
+        font-family: couture;
+        font-size: 15px;
+        color: white;
+        padding-left: 5px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-trece a{
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        font-family: couture;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        border-radius: 15px;
+        left: 32%;
+        height: 50px;
+        width: 250px;
+        position: fixed;
+    }
+
+    .section-trece-2 a{
+        font-family: couture;
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    
+ }
+
+
+
+ @media (max-width:522px){
+    .section-tres{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 60%;
+        width: 70%;
+        border-radius: 25px;
+        margin: 90px 50px 60px 35px;
+        position: fixed;
+}
+.section-tres h1{
+    color: white;
+    font-size: 30px;
+    font-family: heavitas;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+.section-tres h2{
+    font-family: couture;
+    font-size: 15px;
+    padding-left: 20px;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.section-tres div a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    margin-top: 20px;
+    height: 6%;
+    width: 40%;
+    border-radius: 15px;
+    font-family: couture;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}   
+/*cuerpo*/
+.section-tres h1{
+    color: white;
+    font-size: 150%;
+    font-family: heavitas;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+    /*inicio sesion*/
+    .section-4{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 60%;
+        width: 70%;
+        border-radius: 25px;
+        margin: 100px 50px 60px 80px;
+        position: fixed;
+    }
+
+    .section-diez h1{
+        font-family: heavitas;
+        color: white;
+        font-size: 200%;
+        padding-left: 5px;
+        margin-top: 55px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .section-diez h2{
+        font-family: couture;
+        font-size: 15px;
+        color: white;
+        padding-left: 5px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-trece a{
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        font-family: couture;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        border-radius: 15px;
+        left: 26%;
+        height: 25px;
+        width: 250px;
+        position: fixed;
+    }
+
+    .section-trece-2 a{
+        font-family: couture;
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        margin-top: 120px;
+    }
+    
+ }
+
+
+
+
+
+
+
+
+
+ @media (max-width:446px){
+    .section-tres div a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+        margin-top: 40px;
+        background-color: rgb(255, 255, 255);
+        position:fixed;
+        margin-top: 20px;
+        height: 6%;
+        width: 40%;
+        border-radius: 15px;
+        font-family: couture;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    } 
+
+        /*inicio sesion*/
+        .section-4{
+            background-color: hsla(0, 0%, 0%, 0.801);
+            height: 70%;
+            width: 70%;
+            border-radius: 25px;
+            margin: 40px 50px 60px 60px;
+            position: fixed;
+        }
+    
+        .section-diez h1{
+            font-family: heavitas;
+            color: white;
+            font-size: 150%;
+            padding-left: 5px;
+            margin-top: 55px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .section-diez h2{
+            font-family: couture;
+            font-size: 60%;
+            color: white;
+            padding-left: 1px;
+            padding-top: 22px;
+            padding-bottom: 15px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .section-once{
+            font-family: eunomia;
+            font-size: 15px;
+            color: white;
+            padding-left: 5px;
+            margin-right: 33px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            margin-top: 55px;
+        }
+        
+        .section-doce{
+            font-family: eunomia;
+            font-size: 15px;
+            color: white;
+            padding-left: 5px;
+            margin-right: 5px; 
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        
+    
+
+        .section-trece a{
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            font-family: couture;
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 5px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            border-radius: 15px;
+            left: 24%;
+            height: 25px;
+            width: 180px;
+            position: fixed;
+        }
+    
+        .section-trece-2 a{
+            font-family: couture;
+            font-size: 60%;
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            margin-top: 120px;
+        }
+        
+ }
+
+
+
+
+
+
+
+
+
+
+ @media (max-width:354px){
+
+    header{
+        background-color: rgba(0, 0, 0, 0.85);
+        width: 100%;
+        height: 90px;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section{
+        color: white;
+        display: flex;
+        justify-content: center;
+
+    }
+    .section-uno img{
+        display: flex;
+        width: 40px;
+        padding: 5px;
+    }
+    
+    .section-dos img{
+        width: 100px;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    
+    .barra-nav a{
+        color: white;
+        font-family: couture;
+        text-decoration: none;
+        padding-left: 15px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    
+    .barra-nav-division{
+        list-style:none;
+        margin-top: 1px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+/*cuerpo*/
+    .section-tres{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 50%;
+        width: 70%;
+        border-radius: 25px;
+        margin: 120px 50px 60px 35px;
+        position: fixed;
+}
+.section-tres h1{
+    color: white;
+    font-size: 20px;
+    font-family: heavitas;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+.section-tres h2{
+    font-family: couture;
+    font-size: 15px;
+    padding-left: 20px;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.section-tres div a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    margin-top: 20px;
+    height: 4%;
+    width: 40%;
+    border-radius: 15px;
+    font-family: couture;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+} 
+
+
+
+/*pie de pagina*/
+
+footer{
+    background-color: hsla(0, 0%, 0%, 0.85);
+    height: 90px;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+}
+.section-cuatro img{
+    width: 40px;
+    padding: 5px;
+    display: flex;
+}
+
+.section-cinco img{
+    width: 100px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.section-3{
+    display: flex;
+    gap: 8px;
+    padding-right: 15px;
+    justify-content: center;
+}
+
+.section-seis img{
+    width: 20px;
+    padding: 5px;
+}
+
+.section-siete img{
+    width: 20px;
+    padding: 5px;
+}
+
+.section-ocho img{
+    width: 20px;
+    padding: 5px;
+}
+
+.section-nueve h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+.section-nueve-2 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+.section-nueve-3 h3{
+    color: white;
+    font-family: eunomia;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+ }

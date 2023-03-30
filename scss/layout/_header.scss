@@ -1,0 +1,46 @@
+
+/*INDEX header*/
+body{
+    background-image: url(../assets/1inicio.jpg); 
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    height: 55px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section{
+    color: white;
+    display: flex;
+}
+.section-uno img{
+    display: flex;
+    width: 40px;
+    padding: 5px;
+}
+
+.section-dos img{
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.barra-nav a{
+    color: white;
+    font-family: couture;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.barra-nav-division{
+    list-style:none;
+    margin-top: 18px;
+    
+}

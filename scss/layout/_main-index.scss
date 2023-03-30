@@ -1,0 +1,48 @@
+/*cuerpo index*/
+.section-tres{
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 60%;
+    width: 50%;
+    border-radius: 25px;
+    margin: 100px 50px 60px 100px;
+    position: fixed;
+}
+.section-tres h1{
+    color: white;
+    font-size: 200%;
+    font-family: heavitas;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.section-tres h2{
+    font-family: couture;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.section-tres div a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    margin-left: 60px;
+    margin-top: 40px;
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+    font-family: couture;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+

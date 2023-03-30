@@ -1,0 +1,276 @@
+@media (max-width:354px){
+
+    header{
+        background-color: rgba(0, 0, 0, 0.85);
+        width: 100%;
+        height: 90px;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section{
+        color: white;
+        display: flex;
+        justify-content: center;
+
+    }
+    .section-uno img{
+        display: flex;
+        width: 40px;
+        padding: 5px;
+    }
+    
+    .section-dos img{
+        width: 100px;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    
+    .barra-nav a{
+        color: white;
+        font-family: couture;
+        text-decoration: none;
+        padding-left: 15px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    
+    .barra-nav-division{
+        list-style:none;
+        margin-top: 1px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+/*cuerpo*/
+    .section-tres{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 50%;
+        width: 70%;
+        border-radius: 25px;
+        margin: 120px 50px 60px 35px;
+        position: fixed;
+}
+.section-tres h1{
+    color: white;
+    font-size: 20px;
+    font-family: heavitas;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+.section-tres h2{
+    font-family: couture;
+    font-size: 15px;
+    padding-left: 20px;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.section-tres div a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    margin-top: 20px;
+    height: 4%;
+    width: 40%;
+    border-radius: 15px;
+    font-family: couture;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+} 
+
+
+
+        /*pie de pagina*/
+
+        footer{
+            background-color: hsla(0, 0%, 0%, 0.85);
+            height: 90px;
+            width: 100%;
+            position:fixed;
+            bottom: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .section-2{
+            display: flex;
+            justify-content: center;
+        }
+        .section-cuatro img{
+            width: 40px;
+            padding: 5px;
+            display: flex;
+        }
+        
+        .section-cinco img{
+            width: 100px;
+            margin-bottom: 15px;
+            display: flex;
+        }
+        
+        .section-3{
+            display: flex;
+            gap: 15px;
+            padding-right: 15px;
+            justify-content: center;
+        }
+        
+        .section-seis img{
+            width: 20px;
+             margin-bottom: 8px;
+        }
+        
+        .section-siete img{
+            width: 20px;
+             margin-bottom: 8px;
+        }
+        
+        .section-ocho img{
+            width: 20px;
+             margin-bottom: 8px;
+        }
+        
+        .section-nueve h3{
+            color: white;
+            font-family: eunomia;
+            margin-bottom: 15px;
+            font-size: 7px;
+            margin-bottom: 20px;
+        }
+        
+        .section-nueve-2 h3{
+            color: white;
+            font-family: eunomia;
+            margin-bottom: 15px;
+            font-size: 7px;
+            margin-bottom: 20px;
+        }
+        
+        .section-nueve-3 h3{
+            color: white;
+            font-family: eunomia;
+            margin-bottom: 15px;
+            font-size: 7px;
+            margin-bottom: 20px;
+        }    
+        
+            /*inicio sesion*/
+            .section-4{
+                background-color: hsla(0, 0%, 0%, 0.801);
+                height: 70%;
+                width: 70%;
+                border-radius: 25px;
+                margin: 40px 50px 60px 40px;
+                position: fixed;
+            }
+        
+            .section-diez h1{
+                font-family: heavitas;
+                color: white;
+                font-size: 150%;
+                padding-left: 5px;
+                margin-top: 55px;
+                text-transform: uppercase;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .section-diez h2{
+                font-family: couture;
+                font-size: 60%;
+                color: white;
+                padding-left: 1px;
+                padding-top: 22px;
+                padding-bottom: 15px;
+                text-transform: uppercase;
+                display: flex;
+                justify-content: center;
+            }
+    
+    
+            .section-once{
+                font-family: eunomia;
+                font-size: 15px;
+                color: white;
+                padding-left: 5px;
+                margin-right: 33px;
+                text-transform: uppercase;
+                display: flex;
+                justify-content: center;
+                margin-top: 55px;
+            }
+            
+            .section-doce{
+                font-family: eunomia;
+                font-size: 15px;
+                color: white;
+                padding-left: 5px;
+                margin-right: 5px; 
+                text-transform: uppercase;
+                display: flex;
+                justify-content: center;
+                margin-top: 50px;
+            }
+            
+        
+    
+            .section-trece a{
+                background-color: rgb(255, 255, 255);
+                position: absolute;
+                font-family: couture;
+                font-size: 20px;
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+                padding: 5px;
+                text-transform: uppercase;
+                display: flex;
+                justify-content: center;
+                margin-top: 50px;
+                border-radius: 15px;
+                left: 18%;
+                height: 25px;
+                width: 180px;
+                position: fixed;
+            }
+        
+            .section-trece-2 a{
+                font-family: couture;
+                font-size: 60%;
+                color: white;
+                text-decoration: none;
+                padding: 5px;
+                text-transform: uppercase;
+                display: flex;
+                justify-content: center;
+                margin-top: 120px;
+            }
+
+
+/*menuperfil*/
+.section-quince {
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 35%;
+    width: 150%;
+    border-radius: 25px;
+    margin: 280% 10% 20% 70%;
+    font-family: eunomia;
+    color: white;
+    padding-left: none;
+    grid-area: cuadrado2;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+   
+}
+
+ }

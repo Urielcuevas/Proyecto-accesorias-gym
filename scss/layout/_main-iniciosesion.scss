@@ -1,0 +1,86 @@
+/* INICIOSESION */
+
+.section-4{
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 60%;
+    width: 50%;
+    border-radius: 25px;
+    margin: 100px 50px 60px 100px;
+    position: fixed;
+}
+
+.section-diez h1{
+    font-family: heavitas;
+    color: white;
+    font-size: 200%;
+    padding-left: 5px;
+    margin-top: 55px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.section-diez h2{
+    font-family: couture;
+    color: white;
+    padding-left: 5px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.section-once{
+    font-family: eunomia;
+    font-size: 25px;
+    color: white;
+    padding-left: 5px;
+    margin-right: 33px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.section-doce{
+    font-family: eunomia;
+    font-size: 25px;
+    color: white;
+    padding-left: 5px;
+    margin-right: 5px; 
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.section-trece a{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: couture;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    border-radius: 15px;
+    left: 300px;
+    height: 50px;
+    width: 250px;
+}
+
+.section-trece-2 a{
+    font-family: couture;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
