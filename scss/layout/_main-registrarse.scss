@@ -1,53 +1,46 @@
-/* REGISTRARSE */
-
 .section-diecisiete{
     background-color: hsla(0, 0%, 0%, 0.801);
     height: 60vh;
     width: 70vh;
     border-radius: 25px;
     margin: 120px 50px 60px 100px;
-}
-
-.section-diecisiete label{
-    font-family: eunomia;
-    font-size: 25px;
-    color: white;
-    margin-top: 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-}
-
-.section-dieciseis h1{
-    font-family: heavitas;
-    font-size: 50px;
-    color: white;
-    margin-top: 15px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-
-}
-
-.section-dieciseis h2{
-    font-family: couture;
-    font-size: 30px;
-    color: white;
-    margin-top: 25px;
-    margin-bottom: 70px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-}
-
-.section-dieciocho a{
-    font-family: couture;
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    margin-top: 100px;
-    display: flex;
-    text-transform: uppercase;
-    justify-content: center;
+    h1{
+        font-family: heavitas;
+        font-size: 50px;
+        color: white;
+        margin-top: 15px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+    h2{
+        font-family: couture;
+        font-size: 30px;
+        color: white;
+        margin-top: 25px;
+        margin-bottom: 70px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+    label{
+        font-family: eunomia;
+        font-size: 25px;
+        color: white;
+        margin-top: 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+    a{
+        font-family: couture;
+        font-size: 25px;
+        color: white;
+        text-decoration: none;
+        margin-top: 100px;
+        display: flex;
+        text-transform: uppercase;
+        justify-content: center;
+    }
 }

@@ -1,71 +1,41 @@
-/*pie de pagina*/
-
 footer{
-    background-color: hsla(0, 0%, 0%, 0.85);
+    background-color: hsla(0, 0%, 0%, 0.711);
     height: 55px;
     width: 100%;
     position:fixed;
     bottom: 0;
     display: flex;
     justify-content: space-between;
-}
-.section-2{
-    display: flex;
-    align-items: flex-end;
-    
-}
-.section-cuatro img{
-    width: 40px;
-    padding: 5px;
-    display: flex;
-}
 
-.section-cinco img{
-    width: 100px;
-    margin-bottom: 15px;
-    display: flex;
-}
+    .section-2{
+        display: flex;
+        align-items: flex-end;
+        .section-cuatro img{
+            width: 40px;
+            padding: 5px;
+            display: flex; 
+        }
+        .section-cinco img{
+            width: 100px;
+            margin-bottom: 15px;
+            display: flex;
+        }
+    }
 
+    .section-3{
+        display: flex;
+        align-items: flex-end;
+        gap: 15px;
+        padding-right: 15px;
+        img{
+            width: 40px;
+            margin-bottom: 6px;
+        }
+        h3{
+            color: white;
+            font-family: eunomia;
+            margin-bottom: 20px;
+        }
+    }
 
-.section-3{
-    display: flex;
-    align-items: flex-end;
-    gap: 15px;
-    padding-right: 15px;
-}
-
-.section-seis img{
-    width: 40px;
-    margin-bottom: 4px;
-}
-
-.section-siete img{
-    width: 40px;
-    margin-bottom: 4px;
-}
-
-.section-ocho img{
-    width: 40px;
-    margin-bottom: 4px;
-}
-
-.section-nueve h3{
-    color: white;
-    font-family: couture;
-    margin-bottom: 16px;
-    font-size: 15px;
-}
-
-.section-nueve-2 h3{
-    color: white;
-    font-family: couture;
-    margin-bottom: 16px;
-    font-size: 15px;
-}
-
-.section-nueve-3 h3{
-    color: white;
-    font-family: couture;
-    margin-bottom: 16px;
-    font-size: 15px;
 }

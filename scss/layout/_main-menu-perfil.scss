@@ -1,5 +1,3 @@
-/* MENU PERFIL */
-
 .grid{
     display: grid;
     width: 100%;
@@ -8,95 +6,89 @@
     grid-template-areas: 
     "cuadrado1 none none cuadrado2"
     ;
-}
+    .section-6{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 60vh;
+        width: 90vh;
+        border-radius: 25px;
+        margin: 120px 50px 60px 100px;
+        grid-area: cuadrado1 ;
 
-.section-6{
-    background-color: hsla(0, 0%, 0%, 0.801);
-    height: 70%;
-    width: 50%;
-    border-radius: 25px;
-    margin: 80px 50px 60px 100px;
-    grid-area: cuadrado1 ;
-    position:fixed;
-}
+        div{
+            font-family: eunomia;
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+            margin: 5px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+        }
+        h1{
+            font-family: heavitas;
+            font-size: 50px;
+            color: white;
+            margin-top: 15px;
+            padding: 2px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+        }
+        h2{
+            font-family: couture;
+            font-size: 30px;
+            color: white;
+            padding: 5px;
+            margin-left: 25px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: start;
+        }
+        h4{
+            font-family: couture;
+            color: white;
+            margin: 5px;
+            margin-top: 65px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+        }
+     }
+     .section-quince{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 30vh;
+        width: 40vh;
+        border-radius: 25px;
+        margin: 250px 80px 60px 100px;
+        font-family: eunomia;
+        color: white;
+        padding-left: 5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        grid-area: cuadrado2;
+        
+        .section-catorce h3{
+            font-family: couture;
+            font-size: 25px;
+            margin-top: 15px;
+            color: white;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+        }
+        
+        
+        
+        .section-catorce a{
+            font-family: couture;
+            color: white;
+            margin-top: 200px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+        
+        }
+     }
 
-.section-6 div{
-    font-family: eunomia;
-    font-size: 110%;
-    color: white;
-    text-decoration: none;
-    margin-top: 10px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-}
-
-.section-6 h1{
-    font-family: heavitas;
-    font-size: 300%;
-    color: white;
-    margin-top: 15px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-} 
-
-.section-6 h2{
-    font-family: couture;
-    font-size: 150%;
-    color: white;
-    padding: 5px;
-    margin-left: 25px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: start;
-}
-
-.section-6 h4{
-    font-family: couture;
-    color: white;
-    font-size: 100%;
-    margin: 5px;
-    margin-top: 65px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-}
-
-.section-catorce h3{
-    font-family: couture;
-    font-size: 180%;
-    margin-top: 15px;
-    color: white;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-}
-
-
-.section-catorce a{
-    font-family: couture;
-    font-size: 60%;
-    color: white;
-    margin-top: 180px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-
-}
-
-.section-quince {
-    background-color: hsla(0, 0%, 0%, 0.801);
-    height: 55%;
-    width: 60%;
-    border-radius: 25px;
-    margin: 230px 200px 60px 90px;
-    font-family: eunomia;
-    color: white;
-    padding-left: 5px;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    grid-area: cuadrado2;
-    
 }
