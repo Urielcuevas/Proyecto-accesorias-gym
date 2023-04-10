@@ -1,0 +1,134 @@
+@media (max-width:354px){
+
+header{
+    background-color: rgba(0, 0, 0, 0.711);
+    width: 100%;
+    height: 90px;
+    top:0;
+    display: flex;
+    flex-direction: column;
+
+    .section{
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .section-uno img{
+        display: flex;
+        width: 40px;
+        padding: 5px;
+    }
+    .section-dos img{
+        width: 100px;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    nav a{
+        color: white;
+        font-family: couture;
+        text-decoration: none;
+        padding-left: 15px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    nav ul{
+        list-style:none;
+        margin-top: 1px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+                /*cuerpo*/
+.section-tres{
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 50%;
+    width: 70%;
+    border-radius: 25px;
+    margin: 120px 50px 60px 35px;
+    position: fixed;
+    h1{
+        color: white;
+        font-size: 20px;
+        font-family: heavitas;
+        padding-top: 20px;
+        padding-left: 20px;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+        font-family: couture;
+        font-size: 15px;
+        padding-left: 20px;
+        color: white;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        position:fixed;
+        margin-left: 20px;
+        margin-top: 40px;
+        height: 4%;
+        width: 40%;
+        border-radius: 15px;
+        font-family: couture;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+    }
+}
+
+            /*footer*/
+
+footer{
+    background-color: hsla(0, 0%, 0%, 0.711);
+    height: 90px;
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+
+    .section-2{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        .section-cuatro img{
+            width: 40px;
+            padding: 5px;
+            display: flex; 
+        }
+        .section-cinco img{
+            width: 100px;
+            margin-bottom: 15px;
+            display: flex;
+        }
+    }
+
+    .section-3{
+        display: flex;
+        align-items: flex-end;
+        gap: 8px;
+        padding-right: 15px;
+        justify-content: center;
+        img{
+            width: 20px;
+            padding: 5px;
+        }
+        h3{
+            color: white;
+            font-family: eunomia;
+            margin-bottom: 20px;
+            font-size: 8px;
+    }
+
+}
+}
+
+}
