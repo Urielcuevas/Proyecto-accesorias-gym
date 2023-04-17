@@ -290,6 +290,7 @@ footer .section-3 h3 {
   justify-content: center;
 }
 
+/*registrarse*/
 .section-diecisiete {
   background-color: hsla(0, 0%, 0%, 0.801);
   height: 60vh;
@@ -348,7 +349,7 @@ footer .section-3 h3 {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas: "titulo titulo titulo" "titulo2 titulo2 titulo2" "mes1 mes2 mes3";
 }
 .section-diecinueve h1 {
@@ -370,8 +371,11 @@ footer .section-3 h3 {
   grid-area: titulo2;
 }
 .section-diecinueve .servicio-1 a {
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  margin-left: 10%;
   font-family: couture;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 5px;
   display: flex;
@@ -379,8 +383,11 @@ footer .section-3 h3 {
   grid-area: mes1;
 }
 .section-diecinueve .servicio-2 a {
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  margin-left: 10%;
   font-family: couture;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 5px;
   display: flex;
@@ -388,16 +395,23 @@ footer .section-3 h3 {
   grid-area: mes2;
 }
 .section-diecinueve .servicio-3 a {
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  margin-left: 10%;
   font-family: couture;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
+  padding: 5px;
   display: flex;
   justify-content: center;
   grid-area: mes3;
 }
 .section-diecinueve h3 {
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  margin-left: 10%;
   font-family: couture;
-  color: white;
+  color: rgb(1, 1, 1);
   padding: 5px;
   display: flex;
   justify-content: center;
@@ -579,6 +593,53 @@ footer .section-3 h3 {
     justify-content: center;
     text-decoration: none;
   }
+  /*registrarse*/
+  .section-diecisiete {
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 60vh;
+    width: 70vh;
+    border-radius: 25px;
+    margin: 120px 50px 60px 100px;
+  }
+  .section-diecisiete h1 {
+    font-family: heavitas;
+    font-size: 50px;
+    color: white;
+    margin-top: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+  .section-diecisiete h2 {
+    font-family: couture;
+    font-size: 30px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+  .section-diecisiete label {
+    font-family: eunomia;
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+  .section-diecisiete a {
+    font-family: couture;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-top: 100px;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+  }
 }
 @media (max-width: 1024px) {
   /*inicio sesion*/
@@ -750,6 +811,140 @@ footer .section-3 h3 {
     display: flex;
     justify-content: center;
     text-decoration: none;
+  }
+  /*registrarse*/
+  .section-diecisiete {
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 60vh;
+    width: 70vh;
+    border-radius: 25px;
+    margin: 120px 50px 60px 90px;
+  }
+  .section-diecisiete h1 {
+    font-family: heavitas;
+    font-size: 50px;
+    color: white;
+    margin-top: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+  .section-diecisiete h2 {
+    font-family: couture;
+    font-size: 30px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+  .section-diecisiete label {
+    font-family: eunomia;
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+  .section-diecisiete a {
+    font-family: couture;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-top: 100px;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+  /*servicios*/
+  .section-diecinueve {
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 60vh;
+    width: 80%;
+    border-radius: 25px;
+    margin: 120px 50px 60px 100px;
+  }
+  .section-diecinueve .grid-2 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "titulo titulo titulo" "titulo2 titulo2 titulo2" "mes1 mes2 mes3";
+  }
+  .section-diecinueve h1 {
+    font-family: heavitas;
+    font-size: 40px;
+    color: white;
+    margin-top: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    grid-area: titulo;
+  }
+  .section-diecinueve h2 {
+    font-family: couture;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    grid-area: titulo2;
+  }
+  .section-diecinueve .servicio-1 a {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 10%;
+    font-family: couture;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    grid-area: mes1;
+  }
+  .section-diecinueve .servicio-2 a {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 10%;
+    font-family: couture;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    grid-area: mes2;
+  }
+  .section-diecinueve .servicio-3 a {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 10%;
+    font-family: couture;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    grid-area: mes3;
+  }
+  .section-diecinueve h3 {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 10%;
+    font-family: couture;
+    color: rgb(1, 1, 1);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .section-diecinueve .lista {
+    font-family: couture;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 768px) {
@@ -962,6 +1157,140 @@ footer .section-3 h3 {
     display: flex;
     justify-content: center;
     text-decoration: none;
+  }
+  /*registrarse*/
+  .section-diecisiete {
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 70%;
+    width: 80%;
+    border-radius: 25px;
+    margin: 100px 50px 60px 60px;
+  }
+  .section-diecisiete h1 {
+    font-family: heavitas;
+    font-size: 40px;
+    color: white;
+    margin-top: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+  .section-diecisiete h2 {
+    font-family: couture;
+    font-size: 15px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+  .section-diecisiete label {
+    font-family: eunomia;
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+  .section-diecisiete a {
+    font-family: couture;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-top: 100px;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+  /*servicios*/
+  .section-diecinueve {
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 60vh;
+    width: 80%;
+    border-radius: 25px;
+    margin: 90px 50px 60px 70px;
+  }
+  .section-diecinueve .grid-2 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "titulo titulo titulo" "titulo2 titulo2 titulo2" "mes1 mes2 mes3";
+  }
+  .section-diecinueve h1 {
+    font-family: heavitas;
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    grid-area: titulo;
+  }
+  .section-diecinueve h2 {
+    font-family: couture;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    grid-area: titulo2;
+  }
+  .section-diecinueve .servicio-1 a {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 7%;
+    font-family: couture;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    grid-area: mes1;
+  }
+  .section-diecinueve .servicio-2 a {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 7%;
+    font-family: couture;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    grid-area: mes2;
+  }
+  .section-diecinueve .servicio-3 a {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 7%;
+    font-family: couture;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    grid-area: mes3;
+  }
+  .section-diecinueve h3 {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 7%;
+    font-family: couture;
+    color: rgb(1, 1, 1);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .section-diecinueve .lista {
+    font-family: couture;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 636px) {
@@ -1304,6 +1633,97 @@ footer .section-3 h3 {
     justify-content: center;
     text-decoration: none;
   }
+  /*servicios*/
+  .section-diecinueve {
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 50vh;
+    width: 80%;
+    border-radius: 25px;
+    margin: 90px 50px 60px 50px;
+  }
+  .section-diecinueve .grid-2 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "titulo titulo titulo" "titulo2 titulo2 titulo2" "mes1 mes2 mes3";
+  }
+  .section-diecinueve h1 {
+    font-family: heavitas;
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    grid-area: titulo;
+  }
+  .section-diecinueve h2 {
+    font-family: couture;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    grid-area: titulo2;
+  }
+  .section-diecinueve .servicio-1 a {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 7%;
+    font-family: couture;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    grid-area: mes1;
+  }
+  .section-diecinueve .servicio-2 a {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 7%;
+    font-family: couture;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    grid-area: mes2;
+  }
+  .section-diecinueve .servicio-3 a {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 7%;
+    font-size: 10px;
+    font-family: couture;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    grid-area: mes3;
+  }
+  .section-diecinueve h3 {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 7%;
+    font-family: couture;
+    font-size: 10px;
+    color: rgb(1, 1, 1);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .section-diecinueve .lista {
+    font-family: couture;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
 }
 @media (max-width: 446px) {
   /*index*/
@@ -1516,6 +1936,144 @@ footer .section-3 h3 {
     display: flex;
     justify-content: center;
     text-decoration: none;
+  }
+  /*registrarse*/
+  .section-diecisiete {
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 70%;
+    width: 80%;
+    border-radius: 25px;
+    margin: 100px 50px 60px 40px;
+  }
+  .section-diecisiete h1 {
+    font-family: heavitas;
+    font-size: 30px;
+    color: white;
+    margin-top: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+  .section-diecisiete h2 {
+    font-family: couture;
+    font-size: 10px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+  .section-diecisiete label {
+    font-family: eunomia;
+    font-size: 15px;
+    color: white;
+    margin-top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+  .section-diecisiete a {
+    font-family: couture;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 100px;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+  /*servicios*/
+  .section-diecinueve {
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 50vh;
+    width: 80%;
+    border-radius: 25px;
+    margin: 90px 50px 60px 30px;
+  }
+  .section-diecinueve .grid-2 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "titulo titulo titulo" "titulo2 titulo2 titulo2" "mes1 mes2 mes3";
+  }
+  .section-diecinueve h1 {
+    font-family: heavitas;
+    font-size: 15px;
+    color: white;
+    margin-top: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    grid-area: titulo;
+  }
+  .section-diecinueve h2 {
+    font-family: couture;
+    font-size: 8px;
+    color: white;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    grid-area: titulo2;
+  }
+  .section-diecinueve .servicio-1 a {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 5%;
+    font-family: couture;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    grid-area: mes1;
+  }
+  .section-diecinueve .servicio-2 a {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 5%;
+    font-family: couture;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    grid-area: mes2;
+  }
+  .section-diecinueve .servicio-3 a {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 5%;
+    font-size: 10px;
+    font-family: couture;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    grid-area: mes3;
+  }
+  .section-diecinueve h3 {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 5%;
+    font-family: couture;
+    font-size: 10px;
+    color: rgb(1, 1, 1);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .section-diecinueve .lista {
+    font-family: couture;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 354px) {

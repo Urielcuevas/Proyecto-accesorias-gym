@@ -8,7 +8,7 @@
         display: grid;
         width: 100%;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-areas:
         "titulo titulo titulo"
         "titulo2 titulo2 titulo2"
@@ -33,8 +33,11 @@
         grid-area: titulo2;
     }
     .servicio-1 a{
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        margin-left: 10%;
         font-family: couture;
-        color: white;
+        color: rgb(0, 0, 0);
         text-decoration: none;
         padding: 5px;
         display: flex;
@@ -42,8 +45,11 @@
         grid-area: mes1 ;
     }
     .servicio-2 a{
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        margin-left: 10%;
         font-family: couture;
-        color: white;
+        color: rgb(0, 0, 0);
         text-decoration: none;
         padding: 5px;
         display: flex;
@@ -51,16 +57,23 @@
         grid-area: mes2 ;
     }
     .servicio-3 a{
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        margin-left: 10%;
         font-family: couture;
-        color: white;
+        color: rgb(0, 0, 0);
         text-decoration: none;
+        padding: 5px;
         display: flex;
         justify-content: center;
         grid-area: mes3;
     }
     h3{
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        margin-left: 10%;
         font-family: couture;
-        color: white;
+        color: rgb(1, 1, 1);
         padding: 5px;
         display: flex;
         justify-content: center;

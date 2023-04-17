@@ -224,4 +224,144 @@
                     
                     }
 
+
+/*registrarse*/
+.section-diecisiete{
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 70%;
+    width: 80%;
+    border-radius: 25px;
+    margin: 100px 50px 60px 60px;
+    h1{
+        font-family: heavitas;
+        font-size: 40px;
+        color: white;
+        margin-top: 15px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+    h2{
+        font-family: couture;
+        font-size: 15px;
+        color: white;
+        margin-top: 25px;
+        margin-bottom: 70px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+    label{
+        font-family: eunomia;
+        font-size: 20px;
+        color: white;
+        margin-top: 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+    a{
+        font-family: couture;
+        font-size: 25px;
+        color: white;
+        text-decoration: none;
+        margin-top: 100px;
+        display: flex;
+        text-transform: uppercase;
+        justify-content: center;
+    }
+}
+
+
+/*servicios*/
+.section-diecinueve{
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 60vh;
+    width: 80%;
+    border-radius: 25px;
+    margin: 90px 50px 60px 70px;
+    .grid-2{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "titulo titulo titulo"
+        "titulo2 titulo2 titulo2"
+        "mes1 mes2 mes3"
+    }       
+     h1{
+            font-family: heavitas;
+            font-size: 25px;
+            color: white;
+            margin-top: 15px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            grid-area: titulo;
+        }
+    h2{
+        font-family: couture;
+        font-size: 15px;
+        color: white;
+        display: flex;
+        text-transform: uppercase;
+        justify-content: center;
+        grid-area: titulo2;
+    }
+    .servicio-1 a{
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        margin-left: 7%;
+        font-family: couture;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        grid-area: mes1 ;
+    }
+    .servicio-2 a{
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        margin-left: 7%;
+        font-family: couture;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        grid-area: mes2 ;
+    }
+    .servicio-3 a{
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        margin-left: 7%;
+        font-family: couture;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        grid-area: mes3;
+    }
+    h3{
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        margin-left: 7%;
+        font-family: couture;
+        color: rgb(1, 1, 1);
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .lista{
+        font-family: couture;
+        font-size: 20px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+}
 }
