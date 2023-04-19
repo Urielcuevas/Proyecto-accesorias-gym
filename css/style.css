@@ -2281,5 +2281,62 @@ footer .section-3 h3 {
     margin-top: 120px;
   }
 }
+.sobremi {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "cuadrado1" "cuadrado2";
+}
+.sobremi .sobremi2 {
+  background-color: hsla(0, 0%, 0%, 0.801);
+  height: 60%;
+  width: 30%;
+  border-radius: 25px;
+  margin: 3% 10%;
+  position: absolute;
+  grid-area: cuadrado1;
+}
+.sobremi .sobremi2 h1 {
+  font-family: heavitas;
+  font-size: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.sobremi .sobremi2 h2 {
+  font-family: couture;
+  font-size: 80%;
+  color: white;
+  margin: 15px;
+}
+.sobremi .sobremi2 img {
+  border-radius: 25px;
+  margin: 1% 35%;
+  height: 30%;
+  width: 25%;
+}
+.sobremi .sobremi3 {
+  background-color: hsla(0, 0%, 0%, 0.801);
+  height: 60%;
+  width: 30%;
+  border-radius: 25px;
+  margin: 35% 10%;
+  position: absolute;
+  grid-area: cuadrado2;
+}
+.sobremi .sobremi3 h2 {
+  font-family: heavitas;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.sobremi .sobremi3 h3 {
+  font-family: couture;
+  font-size: 15px;
+  color: white;
+  margin: 15px;
+}
 
 /*# sourceMappingURL=style.css.map */
