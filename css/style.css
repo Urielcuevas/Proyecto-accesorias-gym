@@ -5,9 +5,8 @@
 }
 
 body {
-  background-image: url(../assets/1inicio.jpg);
+  background-image: url(../assets/Fondo1.jpg);
   background-repeat: no-repeat;
-  background-position: center;
 }
 
 header {
@@ -338,6 +337,7 @@ footer .section-3 h3 {
   justify-content: center;
 }
 
+/*servicios*/
 .section-diecinueve {
   background-color: hsla(0, 0%, 0%, 0.801);
   height: 60vh;
@@ -1737,7 +1737,7 @@ footer .section-3 h3 {
   }
   .section-tres h1 {
     color: white;
-    font-size: 150%;
+    font-size: 110%;
     font-family: heavitas;
     padding-top: 20px;
     padding-left: 20px;
@@ -1931,7 +1931,7 @@ footer .section-3 h3 {
     font-family: couture;
     font-size: 5px;
     color: white;
-    margin-top: 140px;
+    margin-top: 120px;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -2198,6 +2198,87 @@ footer .section-3 h3 {
     font-family: eunomia;
     margin-bottom: 20px;
     font-size: 8px;
+  }
+  /*inicio sesion*/
+  .section-4 {
+    background-color: hsla(0, 0%, 0%, 0.801);
+    height: 70%;
+    width: 70%;
+    border-radius: 25px;
+    margin: 40px 50px 60px 60px;
+    position: fixed;
+  }
+  .section-4 h1 {
+    font-family: heavitas;
+    color: white;
+    font-size: 150%;
+    padding-left: 5px;
+    margin-top: 55px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+  .section-4 h2 {
+    font-family: couture;
+    font-size: 60%;
+    color: white;
+    padding-left: 1px;
+    padding-top: 22px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+  .section-4 .section-once {
+    font-family: eunomia;
+    font-size: 15px;
+    color: white;
+    padding-left: 25px;
+    margin-right: 33px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+  }
+  .section-4 .section-doce {
+    font-family: eunomia;
+    font-size: 15px;
+    color: white;
+    padding-left: 25px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .section-4 .section-trece a {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: couture;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 15px;
+    left: 24%;
+    height: 25px;
+    width: 180px;
+    position: fixed;
+  }
+  .section-4 .section-trece-2 a {
+    font-family: couture;
+    font-size: 60%;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
   }
 }
 
