@@ -1,44 +1,44 @@
 @media (max-width:354px){
 
-header{
-    background-color: rgba(0, 0, 0, 0.711);
-    width: 100%;
-    height: 90px;
-    top:0;
-    display: flex;
-    flex-direction: column;
-
-    .section{
-        color: white;
+    header{
+        background-color: rgba(0, 0, 0, 0.85);
+        width: 100%;
+        height: 90px;
+        top: 0;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+    
+        .section{
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        .section-uno img{
+            display: flex;
+            width: 40px;
+            padding: 5px;
+        }
+        .section-dos img{
+            width: 100px;
+            margin-left: 5px;
+            margin-top: 15px;
+        }
+        nav a{
+            color: white;
+            font-family: couture;
+            text-decoration: none;
+            padding-left: 15px;
+            padding-right: 10px;
+        }
+        nav ul{
+            font-size: 10px;
+            list-style:none;
+            margin-top: 1px;
+            display: flex;
+            justify-content: center;
+        }
+    
     }
-    .section-uno img{
-        display: flex;
-        width: 40px;
-        padding: 5px;
-    }
-    .section-dos img{
-        width: 100px;
-        margin-left: 5px;
-        margin-top: 15px;
-    }
-    nav a{
-        color: white;
-        font-family: couture;
-        text-decoration: none;
-        padding-left: 15px;
-        padding-right: 10px;
-        font-size: 12px;
-    }
-    nav ul{
-        list-style:none;
-        margin-top: 1px;
-        display: flex;
-        justify-content: center;
-    }
-
-}
 
                 /*cuerpo*/
 .section-tres{

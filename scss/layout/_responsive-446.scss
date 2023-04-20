@@ -1,6 +1,44 @@
 @media (max-width:446px){
     
+    header{
+        background-color: rgba(0, 0, 0, 0.85);
+        width: 100%;
+        height: 90px;
+        top: 0;
+        display: flex;
+        flex-direction: column;
     
+        .section{
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        .section-uno img{
+            display: flex;
+            width: 40px;
+            padding: 5px;
+        }
+        .section-dos img{
+            width: 100px;
+            margin-left: 5px;
+            margin-top: 15px;
+        }
+        nav a{
+            color: white;
+            font-family: couture;
+            text-decoration: none;
+            padding-left: 15px;
+            padding-right: 10px;
+        }
+        nav ul{
+            font-size: 10px;
+            list-style:none;
+            margin-top: 1px;
+            display: flex;
+            justify-content: center;
+        }
+    
+    }
     /*index*/
     .section-tres{
         background-color: hsla(0, 0%, 0%, 0.801);
@@ -365,4 +403,75 @@
         justify-content: center;
     }
 }
+    /*sobremi*/
+    .sobremi{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 0.3fr;
+        grid-template-areas: 
+        "cuadrado1"
+        "cuadrado2";
+    
+       .sobremi2{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 90%;
+        width: 120%;
+        border-radius: 25px;
+        margin: 10% 40%;
+        position: relative;
+        grid-area: cuadrado1;
+    
+        h1{
+            font-family: heavitas;
+            font-size: 20px;
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        h2{
+            font-family: couture;
+            font-size: 35%;
+            color: white;
+            margin: 15px;
+        }
+        img{
+            border-radius: 25px;
+            margin: 1% 30%;
+            height: 50%;
+            width: 35%;  
+    }    
+    
+    
+    }
+    .sobremi3{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 90%;
+        width: 120%;
+        border-radius: 25px;
+        margin: 10% 40%;
+        position:relative;
+        grid-area: cuadrado2;
+    
+        h2{
+        font-family: heavitas;
+        font-size: 10px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        }
+        h3{
+            font-family: couture;
+            font-size: 8px;
+            color: white;
+            margin: 15px;
+        }
+        img{
+            border-radius: 25px;
+            margin: 1% 38%;
+            height: 50%;
+            width: 25%; 
+        }
+    }
+    }
 }

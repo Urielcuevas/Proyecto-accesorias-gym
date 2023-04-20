@@ -317,4 +317,76 @@
         justify-content: center;
     }
 }
+
+    /*sobremi*/
+    .sobremi{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 0.3fr;
+        grid-template-areas: 
+        "cuadrado1"
+        "cuadrado2";
+    
+       .sobremi2{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 90%;
+        width: 90%;
+        border-radius: 25px;
+        margin: 10% 55%;
+        position: relative;
+        grid-area: cuadrado1;
+    
+        h1{
+            font-family: heavitas;
+            font-size: 20px;
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        h2{
+            font-family: couture;
+            font-size: 40%;
+            color: white;
+            margin: 15px;
+        }
+        img{
+            border-radius: 25px;
+            margin: 1% 30%;
+            height: 50%;
+            width: 35%;  
+    }    
+    
+    
+    }
+    .sobremi3{
+        background-color: hsla(0, 0%, 0%, 0.801);
+        height: 90%;
+        width: 90%;
+        border-radius: 25px;
+        margin: 10% 55%;
+        position:relative;
+        grid-area: cuadrado2;
+    
+        h2{
+        font-family: heavitas;
+        font-size: 10px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        }
+        h3{
+            font-family: couture;
+            font-size: 8px;
+            color: white;
+            margin: 15px;
+        }
+        img{
+            border-radius: 25px;
+            margin: 1% 38%;
+            height: 50%;
+            width: 25%; 
+        }
+    }
+    }
 }
