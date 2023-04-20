@@ -1,19 +1,20 @@
+/*sobremi*/
 .sobremi{
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.3fr;
     grid-template-areas: 
     "cuadrado1"
     "cuadrado2";
 
    .sobremi2{
     background-color: hsla(0, 0%, 0%, 0.801);
-    height: 60%;
-    width: 30%;
+    height: 90%;
+    width: 90%;
     border-radius: 25px;
-    margin: 3% 10%;
-    position: absolute;
+    margin: 10% 20%;
+    position: relative;
     grid-area: cuadrado1;
 
     h1{
@@ -31,20 +32,20 @@
     }
     img{
         border-radius: 25px;
-        margin: 1% 35%;
-        height: 30%;
-        width: 25%;  
+        margin: 1% 30%;
+        height: 50%;
+        width: 35%;  
 }    
 
 
 }
 .sobremi3{
     background-color: hsla(0, 0%, 0%, 0.801);
-    height: 60%;
-    width: 30%;
+    height: 90%;
+    width: 90%;
     border-radius: 25px;
-    margin: 35% 10%;
-    position:absolute;
+    margin: 10% 20%;
+    position:relative;
     grid-area: cuadrado2;
 
     h2{
@@ -59,6 +60,12 @@
         font-size: 15px;
         color: white;
         margin: 15px;
+    }
+    img{
+        border-radius: 25px;
+        margin: 1% 38%;
+        height: 50%;
+        width: 25%; 
     }
 }
 }
